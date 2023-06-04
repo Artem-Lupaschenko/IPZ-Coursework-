@@ -1,0 +1,28 @@
+@font-face {
+    font-family:"tetris";
+    src:url("./font/Tetris.ttf");
+    font-weight:normal;
+    font-style:normal;
+}
+
+
+body {
+    margin: 0;
+    background-color: wheat;
+    font-family: "tetris";
+}
+
+#root {
+    padding: 3rem;
+    text-align: center;
+}
+
+#root h1 {
+    font-size: 50px;
+    color: wheat;
+}
+
+#root canvas {
+    display: block;
+    margin: 0 auto;
+}
